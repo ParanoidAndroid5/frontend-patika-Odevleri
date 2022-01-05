@@ -3,6 +3,9 @@
     padding:0;
     box-sizing:border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 /* Navbar */
 .navbar{
@@ -95,3 +98,71 @@
 }
 
 /*Hakkımda */
+#about{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+#pic{
+    display:flex;
+
+}
+#pic img{
+    width:575px;
+    height: 400px;
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding:10px;
+}
+#intro h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+/*Iletisim */
+#contact{
+    display:flex;
+    flex-direction:column;
+    box-sizing: border-box;
+    background-color: black;
+    color:white;
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+}
+.input{
+    padding:12px;
+    margin:15px;
+    width: 30%;
+    border:none;
+    outline:none;
+
+}
+#msg{
+    padding:12px;
+    margin:15px;
+    width: 30%;
+    border:none;
+    outline:none;
+
+}
+#send{
+    padding:10px;
+    margin:30px;
+    border:none;
+    outline:none;
+    width:20%;
+
+}
+#send:hover{
+    cursor:pointer;
+    box-shadow: 0 0 10px white;
+}
