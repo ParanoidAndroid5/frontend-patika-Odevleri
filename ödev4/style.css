@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+main{
+    text-align: center;
+}
+h1{
+    color:blueviolet
+}
+body{
+    background-color: #E9ECEF;
+}
+.row
+{
+    margin: 50px; 
+    padding: 20px;
+}
