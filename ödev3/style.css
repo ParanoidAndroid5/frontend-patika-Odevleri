@@ -70,6 +70,8 @@ nav {
     z-index: 3;
     height: 38px;
     text-align: center;
+    appearance: textfield;
+    cursor: text;
 }
 .input-area:hover{
     box-shadow: 1px 1px 12px -1px #ccc;
