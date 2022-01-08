@@ -6,6 +6,11 @@ body, a {
 body, html {
     font-size: small;
 }
+nav {
+    position: relative;
+    top: 16px;
+    font-size: 13px;
+}
 
 #nav-right{
     
