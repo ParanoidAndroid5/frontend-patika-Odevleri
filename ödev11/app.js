@@ -105,7 +105,7 @@ const menu = [
   } 
   createMenuButtons();
   
-  // Convert html to object in order to append to a list element
+  
   function htmlToElement(html) {
     var template = document.createElement('template');
    
@@ -113,7 +113,7 @@ const menu = [
     return template.content.firstChild;
   }
   
-  // Create menu items: Gets menu object as arguments, adds each item to the menu item section
+  // Create menu items
   function createMenuItems(menu) {
     menu.forEach((item) => {
     let menuItem = document.createElement("div");
